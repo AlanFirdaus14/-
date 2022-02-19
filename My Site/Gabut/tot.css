@@ -1,0 +1,37 @@
+h1 {
+  font-family: "Oliver";
+}
+h3 {
+  font-family: "Winkle";
+}
+.center button {
+  border-radius: 20pc;
+  color: yellow;
+  background-color: gray;
+  outline: none;
+}
+.center button:hover {
+  color: dark-yellow;
+  background-color: dark-cyan;
+  outline: none;
+}
+.center #n {
+  font-size: 1.1em;
+  font-family: "Oliver";
+}
+.center #ne {
+  font-size: 1.4em;
+  font-family: "Winkle";
+}
+.center #new {
+  font-size: 1.2em;
+  font-family: "Oliver", "Winkle";
+}
+.center #date {
+  font-size: 1.0em;
+  font-family: "Winkle";
+}
+.center #kap {
+  font-size: 0.99em;
+  font-family: "Winkle";
+}

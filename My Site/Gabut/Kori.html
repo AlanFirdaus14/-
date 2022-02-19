@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>NaN</title>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <h1>Mau Ke Page 7? Tunggu Waktunya 1 Sampai 10</h1>
+      <button onclick="start()">Mulai</button>
+    </div>
+    <h2 style="text-align: center;">Counter</h2>
+    <script>
+    function start(){
+      let counter = 1;
+      setInterval(() => {
+        document.querySelector('h2').innerText = counter;
+        counter++;
+        if(10 > counter) window.open("coming.html", "cc.html");
+      }, 1000);
+    }
+    </script>
+  </body>
+</html>

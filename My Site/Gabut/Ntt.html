@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Test</title>
+  </head>
+  <body>
+    <a href="New.html"><button>9 I think</button></a>
+    <p id="tee">Totf</p>
+    <button onclick="opy">Copy</button>
+    <script type="text/javascript" charset="utf-8">
+       if(!htmlElement) {
+        return;
+    }
+      let elementText = htmlElement.innerText;
+      let inputElement = document.createElement("input");
+      inputElement.setAttribute('value', elementText);
+      document.body.appendChild(inputElement);
+      inputElement.select();
+      document.execCommand('copy');
+      document.body.removeChild(inputElement);
+    </script>
+  </body>
+</html>

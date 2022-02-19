@@ -1,0 +1,15 @@
+.center p {
+  font-family: "Winkle";
+  font-size: 2em;
+}
+.center p button {
+  background-color: dodgerblue;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.center p button:hover {
+  background-color: royal-blue;
+}

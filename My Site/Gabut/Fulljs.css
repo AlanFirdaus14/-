@@ -1,0 +1,16 @@
+.1 #p {
+  font-family: "Winkle";
+  font-size: 2.5em;
+  width: 5em;
+  height: 5em;
+  color: dark-yellow;
+  background-color: gray;
+}
+.1 #p:hover {
+  font-family: "Winkle";
+  font-size: 2.5em;
+  width: 5em;
+  height: 5em;
+  color: dark-red;
+  background-color: dark-cyan;
+}

@@ -1,0 +1,14 @@
+div{
+  position: absolute;
+  top: 45%;
+  left: 2.5%;
+}
+div p{
+  font-size: 1.2em;
+  font-family: "Oliver";
+}
+div a i{
+  font-size: 350%;
+  position: absolute;
+  left: 45.5%;
+}

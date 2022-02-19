@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Gabut</title>
+    <style type="text/css" media="all">
+    
+    </style>
+  </head>
+  <body>
+    <h1>Gabut 5</h1>
+    <h3>Page Ini Di Buat Pada <br> Hari : Senin <br> Tanggal : 14 <br> Bulan : Februari <br> Tahun : 2022 <br> Jam : 20:21</h3>
+    <a href="Kori.html"><button>6</button></a>
+    <hr><hr>
+    
+    <p id="pesan"></p>
+    
+    <form action="#">
+      <input type="text" id="fusername" placeholder="Username" required /><br>
+      <input type="password" id="fpassword" placeholder="Password" /><br>
+      <input type="submit" value="simpan" onclick="simpan();" />
+    </form>
+    
+    <p id="ps"></p>
+    <script>
+    function simpan(){
+      var user = document.getElementById("fusername").value;
+      var pass = document.getElementById("fpassword").value;
+      if(user===""){
+        document.getElementById("pesan").innerHTML = "Masukkan Nama";
+      }else if(pass===""){
+        document.getElementById("pesan").innerHTML = "Masukkan Password";
+      }else if(user==="admin" && pass==="admin"){
+        document.getElementById("ps").innerHTML = "Login Success";
+      }else{
+        document.getElementById("ps").innerHTML = "Login Gagal";
+      }
+    }
+    </script>
+  </body>
+</html>

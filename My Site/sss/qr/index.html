@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="qrbox">
+      <img src="https://github.com/hirokbanik/qrcode/blob/master/default.png?raw=true" alt="qr-code" />
+      <textarea></textarea>
+      <button>Generate QR Code</button>
+      <a href="#" target="_blank">Download</a>
+    </div>
+    <div class="Reader">
+      <h3>Qr Reader :</h3>
+      <input type="file" id="file" name="file">
+      <br>
+<p>Isi Qr Code : <span id="content"></span></p>
+<!--To Read QR Code-->
+<script type="text/javascript" src="js/qrReader.js"></script>
+    </div>
+  </body>
+</html>
